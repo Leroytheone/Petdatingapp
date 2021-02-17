@@ -11,7 +11,7 @@
     android:layout_marginEnd="5dp"
     android:layout_marginRight="5dp"
     android:layout_marginBottom="5dp"
-    tools:context=".ui.home.DailyFragment">
+    tools:context=".ui.community.DailyFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

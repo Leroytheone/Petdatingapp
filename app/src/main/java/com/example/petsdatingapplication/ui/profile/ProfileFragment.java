@@ -10,11 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 
 import com.example.petsdatingapplication.R;
-import com.example.petsdatingapplication.ui.home.HomeViewModel;
 
 public class ProfileFragment extends Fragment {
     private ProfileViewModel profileViewModel;

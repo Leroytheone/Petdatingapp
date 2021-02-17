@@ -1,4 +1,4 @@
-package com.example.petsdatingapplication.ui.home;
+package com.example.petsdatingapplication.ui.community;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -19,14 +19,14 @@ import com.example.petsdatingapplication.R;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 
-public class HomeFragment extends Fragment {
+public class CommunityFragment extends Fragment {
 
-    private HomeViewModel homeViewModel;
+    private CommunityViewModel homeViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+                new ViewModelProvider(this).get(CommunityViewModel.class);
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         final TextView textView = root.findViewById(R.id.text_home);
         homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {

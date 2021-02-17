@@ -1,4 +1,4 @@
-package com.example.petsdatingapplication.ui.home;
+package com.example.petsdatingapplication.ui.community;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;

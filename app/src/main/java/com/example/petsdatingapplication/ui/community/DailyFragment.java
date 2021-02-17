@@ -1,4 +1,4 @@
-package com.example.petsdatingapplication.ui.home;
+package com.example.petsdatingapplication.ui.community;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.example.petsdatingapplication.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link TBCFragment#newInstance} factory method to
+ * Use the {@link DailyFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TBCFragment extends Fragment {
+public class DailyFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class TBCFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public TBCFragment() {
+    public DailyFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class TBCFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment TBCFragment.
+     * @return A new instance of fragment DailyFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static TBCFragment newInstance(String param1, String param2) {
-        TBCFragment fragment = new TBCFragment();
+    public static DailyFragment newInstance(String param1, String param2) {
+        DailyFragment fragment = new DailyFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class TBCFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_t_b_c, container, false);
+        return inflater.inflate(R.layout.fragment_daily, container, false);
     }
 }
