@@ -44,7 +44,7 @@ public class HomeFragment extends Fragment {
 
         super.onViewCreated(view, savedInstanceState);
 
-        TabLayout tabLayout = view.findViewById(R.id.tabLayout);
+        TabLayout tabLayout = view.findViewById(R.id.tabLayout1);
         TabItem tabDaily = view.findViewById(R.id.tabDaily);
         TabItem tabExperience = view.findViewById(R.id.tanExperience);
         TabItem tabHelp = view.findViewById(R.id.tabHelp);

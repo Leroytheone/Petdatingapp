@@ -3,6 +3,7 @@ package com.example.petsdatingapplication;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.petsdatingapplication.ui.notifications.NotificationsFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
@@ -29,6 +30,9 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
     }
 
+    public void changeToMessages(View view) {
+    }
 }
